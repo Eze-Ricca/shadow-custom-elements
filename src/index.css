@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.container-div {
+  width: 60%;
+  margin: 0 auto;
+}
+.container-btn-input {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (max-width: 650px) {
+  .container-btn-input {
+    width: 70%;
+  }
+}
+@media (max-width: 600px) {
+  .container-btn-input {
+    width: 80%;
+  }
+}
+@media (max-width: 550px) {
+  .container-btn-input {
+    width: 90%;
+  }
+}
